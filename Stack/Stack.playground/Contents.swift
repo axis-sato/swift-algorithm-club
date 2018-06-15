@@ -2,8 +2,6 @@
 
 import UIKit
 
-var str = "Hello, playground"
-
 public struct Stack<T> {
     fileprivate var array = [T]()
     
